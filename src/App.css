@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+
+}
+.txt{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+  font-style: normal;
+}
+.mother{
+    background: url(../public/lib/1.jpg) no-repeat;
+    height: 90vh;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.mother2{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.devid{
+    background: url(../public/lib/2.jpg) no-repeat;
+    height: 90vh;
+
+}
