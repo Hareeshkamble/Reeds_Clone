@@ -14,11 +14,12 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import David from './CarouseIMG/David';
 import Mother from './CarouseIMG/Mother';
+import Watch from './CarouseIMG/Watch';
 
 const items = [
     <div className="item" data-value="1"><Mother/></div>,
     <div className="item" data-value="2"><a href="/david"><David/></a></div>,
-    <div className="item" data-value="3"><a href="/"><img src="/lib/3.jpg" alt=""/></a></div>,
+    <div className="item" data-value="3"><a href="/"><Watch/></a></div>,
 
 ];
 
@@ -57,7 +58,7 @@ const Carousel = () => (
         // renderPrevButton={renderPrevButton}
         // renderNextButton={renderNextButton}
         disableButtonsControls
-
+disableDotsControls
 
     />
 );

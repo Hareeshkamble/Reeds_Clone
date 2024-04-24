@@ -1,18 +1,22 @@
 import './App.css'
-import David from './Components/CarouseIMG/David'
-import Mother from './Components/CarouseIMG/Mother'
-import Carousel from './Components/HomeCarousel'
-import Navbar from './Components/Navbar'
-import Reads from './Components/Reads'
+import Home from './Components/Home'
+import {BrowserRouter as Router , Routes, Route} from "react-router-dom"
 import Topbar from './Components/Topbar'
+import Reads from './Components/Reads'
+import Navbar from './Components/Navbar'
 
 function App() {
   return (
 <>
+<Router>
 <Topbar/>
 <Reads/>
 <Navbar/>
-<Carousel/>
+  <Routes>
+    <Route path='/' element={<Home/>}/> 
+  </Routes>
+</Router>
+
 
 
 </>

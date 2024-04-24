@@ -3,7 +3,7 @@ import React from 'react'
 export default function Mother() {
   return (
   <a href="" >
-       <div className='mother flex items-center px-20'>
+       <div className='mother speacial flex items-center px-20'>
     <div className='max-w-1xl mx-auto w-full '>
       <h1 className='text-6xl text-[#272a2e] mother2 flex flex-col justify-end items-'>
         The Mothers<br/>
