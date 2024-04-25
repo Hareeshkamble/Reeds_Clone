@@ -1,9 +1,9 @@
 import './App.css'
-import Home from './Components/Home'
+import Home from './Home/Home'
 import {BrowserRouter as Router , Routes, Route} from "react-router-dom"
-import Topbar from './Components/Topbar'
-import Reads from './Components/Reads'
-import Navbar from './Components/Navbar'
+import Topbar from './Home/Topbar'
+import Reads from './Home/Reads'
+import Navbar from './Home/Navbar'
 
 function App() {
   return (

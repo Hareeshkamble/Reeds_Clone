@@ -4,7 +4,7 @@ export default function SpringGifts() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className='max-w-7xl flex items-center justify-around mx-auto'>
+    <div className='max-w-7xl flex flex-wrap items-center justify-around mx-auto'>
       <div
         className='relative object-fit overflow-hidden text-white'
         onMouseEnter={() => setIsHovered(true)}

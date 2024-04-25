@@ -30,7 +30,8 @@ export default function WatchCarousel() {
 
     return (
         <>
-        <h1 className='luxury  text-center text-3xl mt-4'>Luxury Watches</h1>
+    <div className='max-w-7xl mx-auto text-center text-[40px] text-[#262b2e] girls luxury '>Luxury Watches</div>
+
         <div className='mx-auto max-w-7xl flex relative h-1/3 items-center gap-2 mt-5'>
             <button className='absolute left-0 cursor-pointer' onClick={previous}><ArrowBackIosIcon/></button>
             <AliceCarousel
