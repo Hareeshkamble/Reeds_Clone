@@ -17,7 +17,7 @@ import Mother from './CarouseIMG/Mother';
 import Watch from './CarouseIMG/Watch';
 
 const items = [
-    <div className="item" data-value="1"><Mother/></div>,
+    <div className="item" data-value="1"><a href="/mothersdaygiftguide"><Mother/></a></div>,
     <div className="item" data-value="2"><a href="/david"><David/></a></div>,
     <div className="item" data-value="3"><a href="/"><Watch/></a></div>,
 

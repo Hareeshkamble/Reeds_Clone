@@ -10,7 +10,7 @@ import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import ShoppingBagOutlined from '@mui/icons-material/ShoppingBagOutlined';
 export default function Reads() {
     return (
-        <div className='Reeds p-3 flex items-center justify-between px-10 border-b-[1px] border-gray-200'>
+        <div className='Reeds  w-full  p-3 flex items-center justify-between px-10 border-b-[1px] border-gray-200'>
             <div className='hidden lg:flex gap-3 '><Avatar alt="Remy Sharp" src="https://cdn.britannica.com/97/1597-050-008F30FA/Flag-India.jpg" />
                 <a href="tel:+1-844-733-3740" className='flex items-center justify-between gap-2 text-[12px]' data-mobile="844-733-3740">
                     <SmartphoneIcon />

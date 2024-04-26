@@ -31,7 +31,7 @@ export default function Topbar() {
   }, []);
 
   return (
-    <div className="bar p-2 text-center bg-[#24414f] text-white flex items-center justify-center relative overflow-hidden min-h-[25px] lg:min-h-[30px] text-[12px] lg:text-[14px]">
+    <div className="bar p-2 text-center  bg-[#24414f] text-white flex items-center justify-center relative overflow-hidden min-h-[25px] lg:min-h-[30px] text-[12px] lg:text-[14px]">
       <button
         className="bar-left-button hover:text-gray-600 hidden lg:flex"
         onClick={handlePreviousClick}>
