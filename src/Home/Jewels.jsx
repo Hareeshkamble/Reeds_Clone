@@ -3,7 +3,7 @@ import React from "react";
 export default function Jewels() {
   return (
     <div className="flex flex-wrap flex-row w-full items-center px-10 justify-evenly mt-5">
-      <a href="">
+      <a href="/engagement_rings">
         <div className=" object-scale-down h-40 flex flex-col items-center">
           <img src="/lib/4.png" className="h-40" alt="" />
           <caption className="m-2">Engagement Rings</caption>

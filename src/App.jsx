@@ -6,6 +6,7 @@ import Reads from './Home/Reads'
 import Navbar from './Home/Navbar'
 import Footer from './Home/Footer'
 import Motherday1page from './Pages/MothersDayGiftGuide/Motherday1page'
+import Engagement_Rings from './Pages/Rings/Engagement_Rings'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
   <Routes>
     <Route path='/' element={<Home/>}/> 
     <Route path='/mothersdaygiftguide' element={<Motherday1page/>}/> 
+    <Route path='/engagement_rings' element={<Engagement_Rings/>}/>
 
   </Routes>
 </Router>
