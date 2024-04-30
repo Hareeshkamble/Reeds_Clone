@@ -7,6 +7,7 @@ import Navbar from './Home/Navbar'
 import Footer from './Home/Footer'
 import Motherday1page from './Pages/MothersDayGiftGuide/Motherday1page'
 import Engagement_Rings from './Pages/Rings/Engagement_Rings'
+import ProductDetailsPage from './Pages/Rings/ProductDetailsPage'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
     <Route path='/' element={<Home/>}/> 
     <Route path='/mothersdaygiftguide' element={<Motherday1page/>}/> 
     <Route path='/engagement_rings' element={<Engagement_Rings/>}/>
-
+    <Route path='/productDetails/:id' element={<ProductDetailsPage/>}/>
   </Routes>
 </Router>
 <Footer/>
