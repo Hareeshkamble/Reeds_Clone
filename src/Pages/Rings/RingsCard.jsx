@@ -8,15 +8,17 @@ import ProductDetailsPage from './ProductDetailsPage';
 
 export default function RingsCard(props) {
   const [isHovered, setIsHovered] = useState(false);
-  const [clicked, setClicked] = useState(false); // Changed variable name to lowercase
+  const [clicked, setClicked] = useState(false);
 
   const { data, index } = props;
+  // console.log(data)
   
 
   const handleClick = () => {
-    setClicked(!clicked); // Toggle the clicked state
+    setClicked(!clicked); 
   };
-
+let url=data.imageUrl
+let newUrl= url.slice(1)
   return (
     <>
     <Link  to={`/productDetails/${data.id}`}>
@@ -27,28 +29,32 @@ export default function RingsCard(props) {
         </button>
 
         <div className='flex items-center justify-center'>
-          <Link  to={`/productDetails/${data.id}`}><img src={data.imageUrl} id={data.id} height="200" width="200" alt="" /></Link>
+          <img src={data.imageUrl} id={data.id} height="200" width="200" alt="" />
         </div>
         <div className='mb-5'>
           <p className='text-center girls text-2xl p-2'>{data.name.slice(0, 20)}</p>
           <h6 className='text-center girls'>${data.price}</h6>
         </div>
         <div className='flex items-center justify-center'>
-          <Link
-            to={`/productDetails/${data.id}`}
+          <div
             className={`uppercase absolute transition-all underline items-center justify-center mt-3 font-bold text-center ${
               isHovered ? 'flex' : 'hidden'
             }`}
           >
             See this Item
-          </Link>
+          </div>
         </div>
       </div>
     </Card>
     </Link>
-    <div className='hidden'>
-      <ProductDetailsPage product={data} index={index}/>
-    </div>
+ 
     </>
   );
 }
+
+
+// Dummy 
+
+  //  {/* <div className='hidden'>
+  //     <ProductDetailsPage product={data} index={index}/>
+  //   </div> */}

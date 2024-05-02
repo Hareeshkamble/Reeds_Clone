@@ -8,6 +8,8 @@ import WatchCarousel from './Watch Carousel/WatchCarousel'
 
 export default function Home() {
   return (
+
+    
 <div>
 <Carousel/>
 <Jewels/>

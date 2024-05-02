@@ -211,4 +211,5 @@ let ringdata = [
     },
   ];
 
-module.exports =ringdata
+  export default ringdata
+  
